@@ -1,0 +1,9 @@
+main: git.schvarts11.aicompagnon.AicompagnonMod
+name: ai-compagnon
+version: 1.0.0
+authors: [MCreator]
+bootstrapper: git.schvarts11.aicompagnon.AicompagnonModBootstrap
+website: https://mcreator.net
+api-version: 26.1
+
+commands:
