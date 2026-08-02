@@ -1,0 +1,37 @@
+# AI Compagnon Configuration
+# This file is generated automatically on first run.
+# You can edit it and use /compagnon reload to apply changes.
+
+# OpenAI-compatible API base URL (no trailing slash)
+api_endpoint: "http://localhost:11434"
+
+# Bearer token for the API. Leave empty for local models without auth.
+api_key: ""
+
+# Model identifier to use for decisions
+model: "llama3"
+
+# How often the AI decides what to do, in server ticks (20 ticks = 1 second)
+tick_interval_ticks: 60
+
+# Maximum companions a single player can spawn
+max_companions_per_player: 5
+
+# Prefix added before companion chat messages
+companion_prefix: "<[AI]> "
+
+# If true, companion is removed when its owner quits
+remove_on_owner_quit: false
+
+# Comma-separated whitelist of allowed actions
+# Available: follow,move_to,look_at,say,wait,wander,attack
+allowed_actions: "follow,move_to,look_at,say,wait,wander"
+
+# HTTP timeout for AI API calls in seconds
+api_timeout_seconds: 15
+
+# Radius in blocks for gathering nearby players/entities
+context_radius_blocks: 16
+
+# Maximum entries kept in action history (prevents context bloat)
+max_history_entries: 20
